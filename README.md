@@ -88,9 +88,9 @@ integer hash function from a sequence of bytes. Similar to git, Gitlet relies on
  
 * **-reset**
 
- *Usage:* **java gitlet.Main reset [commit id]**
+  *Usage:* **java gitlet.Main reset [commit id]**
 
- *Description:* Checks out all the files tracked by the given commit. Removes tracked files that are not present in that commit. Also moves the current branch's head to that commit node. See the intro for an example of what happens to the head pointer after using reset. 
+  *Description:* Checks out all the files tracked by the given commit. Removes tracked files that are not present in that commit. Also moves the current branch's head to that commit node. See the intro for an example of what happens to the head pointer after using reset. 
 
 * **-merge**
 
