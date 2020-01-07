@@ -9,15 +9,15 @@ integer hash function from a sequence of bytes.
 
 ## Commands 
 ***init***\
-**Usage:** java gitlet.Main init\
+**Usage:** java gitlet.Main init
 **Description:** Creates a new Gitlet version-control system in the current directory. This system will automatically start with one commit.\
 
 ***-add***\
-**Usage:** java gitlet.Main add [file name]\
+**Usage:** java gitlet.Main add [file name]
 **Description:** Adds a copy of the file as it currently exists to the staging area (see the description of the commit command). For this reason, adding a file is also called staging the file. 
 
 **-commit**\
-**Usage:** java gitlet.Main commit [message]\
+**Usage:** java gitlet.Main commit [message]
 
 **Description:** Saves a snapshot of certain files in the current commit and staging area so they can be restored at a later time, creating a new commit. The commit is said to be tracking the saved files. By default, each commit's snapshot of files will be exactly the same as its parent commit's snapshot of files; it will keep versions of files exactly as they are, and not update them. A commit will only update files it is tracking that have been staged at the time of commit, in which case the commit will now include the version of the file that was staged instead of the version it got from its parent. 
 
@@ -27,22 +27,9 @@ Description: Unstage the file if it is currently staged. If the file is tracked 
 
 **-log**
 Usage: java gitlet.Main log
-Description: Starting at the current head commit, display information about each commit backwards along the commit tree until the initial commit, following the first parent commit links, ignoring any second parents found in merge commits. (In regular Git, this is what you get with git log --first-parent). Here is an example of the exact format:
+Description: Starting at the current head commit, display information about each commit backwards along the commit tree until the initial commit, following the first parent commit links, ignoring any second parents found in merge commits. (In regular Git, this is what you get with git log --first-parent). 
 
-   ===
-   commit a0da1ea5a15ab613bf9961fd86f010cf74c7ee48
-   Date: Thu Nov 9 20:00:05 2017 -0800
-   A commit message.
-
-   ===
-   commit 3e8bf1d794ca2e9ef8a4007275acf3751c7170ff
-   Date: Thu Nov 9 17:01:33 2017 -0800
-   Another commit message.
-
-   ===
-   commit e881c9575d180a215d1a636545b8fd9abfb1d2bb
-   Date: Wed Dec 31 16:00:00 1969 -0800
-   initial commit
+  
 
 
 ***global-log***\
@@ -51,15 +38,15 @@ Description: Like log, except displays information about all commits ever made. 
 
 **find**\
 Usage: java gitlet.Main find [commit message]\
-Description: Prints out the ids of all commits that have the given commit message, one per line. If there are multiple such commits, it prints the ids out on separate lines. The commit message is a single operand; to indicate a multiword message, put the operand in quotation marks, as for the commit command below. Not a git command.\
+Description: Prints out the ids of all commits that have the given commit message, one per line. If there are multiple such commits, it prints the ids out on separate lines. The commit message is a single operand; to indicate a multiword message, put the operand in quotation marks, as for the commit command below. Not a git command.
 
 ***status***\
 **Usage: java gitlet.Main status\
-**Description: Displays what branches currently exist, and marks the current branch with a *. Also displays what files have been staged or marked for untracking. An example of the exact format is as follows.\
+**Description: Displays what branches currently exist, and marks the current branch with a *. Also displays what files have been staged or marked for untracking. An example of the exact format is as follows.
 
 === Branches ===
 *master
-other-branch
+
 
 === Staged Files ===
 
@@ -71,7 +58,7 @@ other-branch
 
 === Untracked Files ===
 
-***checkout***
+***checkout***\
 Checkout is a kind of general command that can do a few different things depending on what its arguments are. There are 3 possible use cases. In each section below, you'll see 3 bullet points. Each corresponds to the respective usage of checkout.
 
 **Usages**:\
@@ -79,7 +66,7 @@ java gitlet.Main checkout -- [file name]\
 java gitlet.Main checkout [commit id] -- [file name]\
 java gitlet.Main checkout [branch name]\
 
-**Descriptions:**
+**Descriptions:**\
 
 -Takes the version of the file as it exists in the head commit, the front of the current branch, and puts it in the working directory, overwriting the version of the file that's already there if there is one. The new version of the file is not staged.
 
