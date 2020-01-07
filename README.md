@@ -8,23 +8,24 @@ integer hash function from a sequence of bytes.
 <img width="569" alt="Screen Shot 2020-01-07 at 12 59 01 AM" src="https://user-images.githubusercontent.com/47373165/71882269-fb9ae600-30e8-11ea-8063-f84349684aa8.png">
 
 ## Commands 
-init
+**-init**
 Usage: java gitlet.Main init
 Description: Creates a new Gitlet version-control system in the current directory. This system will automatically start with one commit.
 
-add
+**-add**\
 Usage: java gitlet.Main add [file name]
 Description: Adds a copy of the file as it currently exists to the staging area (see the description of the commit command). For this reason, adding a file is also called staging the file. 
 
-commit
+**-commit**\
 Usage: java gitlet.Main commit [message]
+
 Description: Saves a snapshot of certain files in the current commit and staging area so they can be restored at a later time, creating a new commit. The commit is said to be tracking the saved files. By default, each commit's snapshot of files will be exactly the same as its parent commit's snapshot of files; it will keep versions of files exactly as they are, and not update them. A commit will only update files it is tracking that have been staged at the time of commit, in which case the commit will now include the version of the file that was staged instead of the version it got from its parent. A commit will save and start tracking any files that were staged but weren't tracked by its parent. Finally, files tracked in the current commit may be untracked in the new commit as a result of the rm command (below).
 
-rm
+**-rm**
 Usage: java gitlet.Main rm [file name]
 Description: Unstage the file if it is currently staged. If the file is tracked in the current commit, mark it to indicate that it is not to be included in the next commit (presumably you would store this mark somewhere in the .gitlet directory), and remove the file from the working directory if the user has not already done so (do not remove it unless it is tracked in the current commit).
 
-log
+**-log**
 Usage: java gitlet.Main log
 Description: Starting at the current head commit, display information about each commit backwards along the commit tree until the initial commit, following the first parent commit links, ignoring any second parents found in merge commits. (In regular Git, this is what you get with git log --first-parent). This set of commit nodes is called the commit's history. For every node in this history, the information it should display is the commit id, the time the commit was made, and the commit message. Here is an example of the exact format:
 
@@ -44,11 +45,11 @@ Description: Starting at the current head commit, display information about each
    initial commit
 
 
-global-log
+**-global-log**
 Usage: java gitlet.Main global-log
 Description: Like log, except displays information about all commits ever made. The order of the commits does not matter.
 
-find
+**-find**
 Usage: java gitlet.Main find [commit message]
 Description: Prints out the ids of all commits that have the given commit message, one per line. If there are multiple such commits, it prints the ids out on separate lines. The commit message is a single operand; to indicate a multiword message, put the operand in quotation marks, as for the commit command below.
 Runtime: Should be linear relative to the number of commits.
