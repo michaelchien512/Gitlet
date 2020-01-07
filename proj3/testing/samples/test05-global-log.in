@@ -1,0 +1,41 @@
+# Check that the global log of all commits is printed
+> init
+<<<
++wug.txt wug.txt
++notwug.txt notwug.txt
+> add wug.txt
+<<<
+> add notwug.txt
+<<<
+> commit "added wug.txt and notwug.txt"
+<<<
+> branch "branch 1"
+<<<
+> checkout "branch 1"
+<<<
++ notwug.txt wug.txt
+> add notwug.txt
+<<<
+> commit "branch 1 commit"
+<<<
+# Each ${HEADER} captures its commit UID.
+D HEADER "commit [a-f0-9]+"
+D DATE "Date: \w\w\w \w\w\w \d+ \d\d:\d\d:\d\d \d\d\d\d [-+]\d\d\d\d"
+D MESSAGE ".+"
+> global-log
+===
+${HEADER}
+${DATE}
+${MESSAGE}
+
+===
+${HEADER}
+${DATE}
+${MESSAGE}
+
+===
+${HEADER}
+${DATE}
+${MESSAGE}
+
+<<<*

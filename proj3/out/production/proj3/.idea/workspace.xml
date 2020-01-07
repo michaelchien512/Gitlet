@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="426006e4-7e11-4b4d-8187-3ad853a6cc98" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitlet/Branch.class" beforeDir="false" afterPath="$PROJECT_DIR$/gitlet/Branch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitlet/Branch.java" beforeDir="false" afterPath="$PROJECT_DIR$/gitlet/Branch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitlet/Commit.class" beforeDir="false" afterPath="$PROJECT_DIR$/gitlet/Commit.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitlet/Commit.java" beforeDir="false" afterPath="$PROJECT_DIR$/gitlet/Commit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitlet/CommitTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/gitlet/CommitTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitlet/CommitTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/gitlet/CommitTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitlet/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/gitlet/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitlet/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/gitlet/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitlet/Repository.class" beforeDir="false" afterPath="$PROJECT_DIR$/gitlet/Repository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitlet/Repository.java" beforeDir="false" afterPath="$PROJECT_DIR$/gitlet/Repository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitlet/StagingArea.class" beforeDir="false" afterPath="$PROJECT_DIR$/gitlet/StagingArea.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitlet/StagingArea.java" beforeDir="false" afterPath="$PROJECT_DIR$/gitlet/StagingArea.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitlet/UnitTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/gitlet/UnitTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitlet/UnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/gitlet/UnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proj3/.gitlet/blobs/c22b5f9178342609428d6f51b2c5af4c0bde6a42" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proj3/.gitlet/commitTree" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proj3/.gitlet/commitTree" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proj3/.gitlet/commits/c29db7aef3a9dd61397391ee9c8d3f6e224d7601" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proj3/.gitlet/commits/decd5f0ffedb1fce1b5b441f5061d29e6a79129f" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proj3/.gitlet/commits/decd5f0ffedb1fce1b5b441f5061d29e6a79129f" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proj3/.gitlet/stage" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proj3/.gitlet/stage" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proj3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proj3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proj3/gitlet/Branch.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proj3/gitlet/Branch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proj3/gitlet/Commit.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proj3/gitlet/Commit.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proj3/gitlet/CommitTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proj3/gitlet/CommitTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proj3/gitlet/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proj3/gitlet/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proj3/gitlet/Repository.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proj3/gitlet/Repository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proj3/gitlet/StagingArea.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proj3/gitlet/StagingArea.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proj3/gitlet/UnitTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proj3/gitlet/UnitTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proj3/safezone/Makefile" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1UdaRuDp4AbKgHLyWe0jzJI21YI" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/testing/samples" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="gitlet.Main" />
+      <module name="proj3" />
+      <option name="PROGRAM_PARAMETERS" value="status" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="gitlet.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="426006e4-7e11-4b4d-8187-3ad853a6cc98" name="Default Changelist" comment="" />
+      <created>1575688920846</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1575688920846</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="360" y="205" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1576223667053">
+      <screen x="0" y="23" width="1792" height="1041" />
+    </state>
+    <state x="360" y="205" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1792.1041@0.23.1792.1041" timestamp="1576223667053" />
+    <state x="360" y="205" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1792.1043@0.23.1792.1043" timestamp="1576209516482" />
+    <state x="593" y="332" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1576194143412">
+      <screen x="0" y="23" width="1792" height="1043" />
+    </state>
+    <state x="593" y="332" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1792.1043@0.23.1792.1043" timestamp="1576194143412" />
+    <state x="517" y="59" key="CommitChangelistDialog2" timestamp="1575700534010">
+      <screen x="0" y="23" width="1792" height="1043" />
+    </state>
+    <state x="517" y="59" key="CommitChangelistDialog2/0.23.1792.1043@0.23.1792.1043" timestamp="1575700534010" />
+    <state width="1750" height="464" key="GridCell.Tab.0.bottom" timestamp="1576223403963">
+      <screen x="0" y="23" width="1792" height="1041" />
+    </state>
+    <state width="1750" height="464" key="GridCell.Tab.0.bottom/0.23.1792.1041@0.23.1792.1041" timestamp="1576223403963" />
+    <state width="1750" height="466" key="GridCell.Tab.0.bottom/0.23.1792.1043@0.23.1792.1043" timestamp="1576209959016" />
+    <state width="1750" height="464" key="GridCell.Tab.0.center" timestamp="1576223403962">
+      <screen x="0" y="23" width="1792" height="1041" />
+    </state>
+    <state width="1750" height="464" key="GridCell.Tab.0.center/0.23.1792.1041@0.23.1792.1041" timestamp="1576223403962" />
+    <state width="1750" height="466" key="GridCell.Tab.0.center/0.23.1792.1043@0.23.1792.1043" timestamp="1576209959016" />
+    <state width="1750" height="464" key="GridCell.Tab.0.left" timestamp="1576223403962">
+      <screen x="0" y="23" width="1792" height="1041" />
+    </state>
+    <state width="1750" height="464" key="GridCell.Tab.0.left/0.23.1792.1041@0.23.1792.1041" timestamp="1576223403962" />
+    <state width="1750" height="466" key="GridCell.Tab.0.left/0.23.1792.1043@0.23.1792.1043" timestamp="1576209959015" />
+    <state width="1750" height="464" key="GridCell.Tab.0.right" timestamp="1576223403962">
+      <screen x="0" y="23" width="1792" height="1041" />
+    </state>
+    <state width="1750" height="464" key="GridCell.Tab.0.right/0.23.1792.1041@0.23.1792.1041" timestamp="1576223403962" />
+    <state width="1750" height="466" key="GridCell.Tab.0.right/0.23.1792.1043@0.23.1792.1043" timestamp="1576209959016" />
+    <state width="1750" height="464" key="GridCell.Tab.1.bottom" timestamp="1576223403963">
+      <screen x="0" y="23" width="1792" height="1041" />
+    </state>
+    <state width="1750" height="464" key="GridCell.Tab.1.bottom/0.23.1792.1041@0.23.1792.1041" timestamp="1576223403963" />
+    <state width="1750" height="466" key="GridCell.Tab.1.bottom/0.23.1792.1043@0.23.1792.1043" timestamp="1576209959017" />
+    <state width="1750" height="464" key="GridCell.Tab.1.center" timestamp="1576223403963">
+      <screen x="0" y="23" width="1792" height="1041" />
+    </state>
+    <state width="1750" height="464" key="GridCell.Tab.1.center/0.23.1792.1041@0.23.1792.1041" timestamp="1576223403963" />
+    <state width="1750" height="466" key="GridCell.Tab.1.center/0.23.1792.1043@0.23.1792.1043" timestamp="1576209959016" />
+    <state width="1750" height="464" key="GridCell.Tab.1.left" timestamp="1576223403963">
+      <screen x="0" y="23" width="1792" height="1041" />
+    </state>
+    <state width="1750" height="464" key="GridCell.Tab.1.left/0.23.1792.1041@0.23.1792.1041" timestamp="1576223403963" />
+    <state width="1750" height="466" key="GridCell.Tab.1.left/0.23.1792.1043@0.23.1792.1043" timestamp="1576209959016" />
+    <state width="1750" height="464" key="GridCell.Tab.1.right" timestamp="1576223403963">
+      <screen x="0" y="23" width="1792" height="1041" />
+    </state>
+    <state width="1750" height="464" key="GridCell.Tab.1.right/0.23.1792.1041@0.23.1792.1041" timestamp="1576223403963" />
+    <state width="1750" height="466" key="GridCell.Tab.1.right/0.23.1792.1043@0.23.1792.1043" timestamp="1576209959017" />
+    <state width="1750" height="464" key="GridCell.Tab.2.bottom" timestamp="1576223403964">
+      <screen x="0" y="23" width="1792" height="1041" />
+    </state>
+    <state width="1750" height="464" key="GridCell.Tab.2.bottom/0.23.1792.1041@0.23.1792.1041" timestamp="1576223403964" />
+    <state width="1750" height="466" key="GridCell.Tab.2.bottom/0.23.1792.1043@0.23.1792.1043" timestamp="1576209959017" />
+    <state width="1750" height="464" key="GridCell.Tab.2.center" timestamp="1576223403964">
+      <screen x="0" y="23" width="1792" height="1041" />
+    </state>
+    <state width="1750" height="464" key="GridCell.Tab.2.center/0.23.1792.1041@0.23.1792.1041" timestamp="1576223403964" />
+    <state width="1750" height="466" key="GridCell.Tab.2.center/0.23.1792.1043@0.23.1792.1043" timestamp="1576209959017" />
+    <state width="1750" height="464" key="GridCell.Tab.2.left" timestamp="1576223403963">
+      <screen x="0" y="23" width="1792" height="1041" />
+    </state>
+    <state width="1750" height="464" key="GridCell.Tab.2.left/0.23.1792.1041@0.23.1792.1041" timestamp="1576223403963" />
+    <state width="1750" height="466" key="GridCell.Tab.2.left/0.23.1792.1043@0.23.1792.1043" timestamp="1576209959017" />
+    <state width="1750" height="464" key="GridCell.Tab.2.right" timestamp="1576223403964">
+      <screen x="0" y="23" width="1792" height="1041" />
+    </state>
+    <state width="1750" height="464" key="GridCell.Tab.2.right/0.23.1792.1041@0.23.1792.1041" timestamp="1576223403964" />
+    <state width="1750" height="466" key="GridCell.Tab.2.right/0.23.1792.1043@0.23.1792.1043" timestamp="1576209959017" />
+    <state x="627" y="177" key="RollbackChangesDialog" timestamp="1576147707667">
+      <screen x="0" y="23" width="1792" height="1043" />
+    </state>
+    <state x="627" y="177" key="RollbackChangesDialog/0.23.1792.1043@0.23.1792.1043" timestamp="1576147707667" />
+    <state x="384" y="124" key="SettingsEditor" timestamp="1576147778352">
+      <screen x="0" y="23" width="1792" height="1043" />
+    </state>
+    <state x="384" y="124" key="SettingsEditor/0.23.1792.1043@0.23.1792.1043" timestamp="1576147778352" />
+    <state x="100" y="123" width="1592" height="843" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1576147815079">
+      <screen x="0" y="23" width="1792" height="1043" />
+    </state>
+    <state x="100" y="123" width="1592" height="843" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.1792.1043@0.23.1792.1043" timestamp="1576147815079" />
+    <state x="677" y="462" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1575709203196">
+      <screen x="0" y="23" width="1792" height="1043" />
+    </state>
+    <state x="677" y="462" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1792.1043@0.23.1792.1043" timestamp="1575709203196" />
+    <state x="559" y="254" width="670" height="676" key="search.everywhere.popup" timestamp="1576202052664">
+      <screen x="0" y="23" width="1792" height="1043" />
+    </state>
+    <state x="559" y="254" width="670" height="676" key="search.everywhere.popup/0.23.1792.1043@0.23.1792.1043" timestamp="1576202052664" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/gitlet/Repository.java</url>
+          <line>234</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/gitlet/Repository.java</url>
+          <line>404</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/gitlet/Repository.java</url>
+          <line>586</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
