@@ -82,19 +82,19 @@ integer hash function from a sequence of bytes. Similar to git, Gitlet relies on
   
 * **-rm-branch**
 
- *Usage:* java gitlet.Main rm-branch [branch name]
+  *Usage:* **java gitlet.Main rm-branch [branch name]**
 
- *Description:* Deletes the branch with the given name. 
+  *Description:* Deletes the branch with the given name. 
  
 * **-reset**
 
-*Usage:* java gitlet.Main reset [commit id]
+ *Usage:* **java gitlet.Main reset [commit id]**
 
-*Description:* Checks out all the files tracked by the given commit. Removes tracked files that are not present in that commit. Also moves the current branch's head to that commit node. See the intro for an example of what happens to the head pointer after using reset. 
+ *Description:* Checks out all the files tracked by the given commit. Removes tracked files that are not present in that commit. Also moves the current branch's head to that commit node. See the intro for an example of what happens to the head pointer after using reset. 
 
 * **-merge**
 
-*Usage:* java gitlet.Main merge [branch name]
+ *Usage:* **java gitlet.Main merge [branch name]**
 
-*Description:* Merges files from the given branch into the current branch. This method is much much more complex so to keep this short details are not provided.
+ *Description:* Merges files from the given branch into the current branch. This method is much much more complex so to keep this short details are not provided.
 
