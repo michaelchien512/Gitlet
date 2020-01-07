@@ -61,9 +61,9 @@ integer hash function from a sequence of bytes. Similar to git, Gitlet relies on
   Checkout is a kind of general command that can do a few different things depending on what its arguments are. There are 3     possible use cases. In each section below, you'll see 3 bullet points. Each corresponds to the respective usage of checkout.
 
   *Usages*:
-  **java gitlet.Main checkout -- [file name]**
-  **java gitlet.Main checkout [commit id] -- [file name]**
-  **java gitlet.Main checkout [branch name]**
+  **java gitlet.Main checkout -- [file name]**\
+  **java gitlet.Main checkout [commit id] -- [file name]**\
+  **java gitlet.Main checkout [branch name]**\
 
   *Descriptions:*
 
